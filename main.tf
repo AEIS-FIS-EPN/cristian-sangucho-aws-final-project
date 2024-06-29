@@ -32,13 +32,11 @@ module "ec2_instances" {
     depends_on = [ module.network_interface ]
 
 }
-
+/*
 module "ecr" {
   source = "./ecr"
-
-  
 }
-
+*/
 output "public_ip" {
   value = module.ec2_instances.public_aeis_ip
   description = "value"
@@ -47,8 +45,10 @@ output "private_ip" {
   value = module.ec2_instances.aeis_ip
   
 }
+/*
 output "url_ecr_repository_aeis" {
   value = module.ecr.url_ecr_repository_aeis
 }
+*/
 #internet GW tiene limitantes por que ghay que especificarle por donde tiene que salir
 #----------------------------------------------------------------
