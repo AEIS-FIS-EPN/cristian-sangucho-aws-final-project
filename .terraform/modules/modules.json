@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"ec2_instances","Source":"./ec2_instances","Dir":"ec2_instances"},{"Key":"network_interface","Source":"./network-interface","Dir":"network-interface"},{"Key":"security_groups","Source":"./security_group","Dir":"security_group"},{"Key":"subnet","Source":"./subnet","Dir":"subnet"},{"Key":"vpc","Source":"./vpc","Dir":"vpc"}]}
